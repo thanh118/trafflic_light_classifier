@@ -66,22 +66,3 @@ if __name__ == '__main__':
   # Find all misclassified images in a given test set
   MISCLASSIFIED = get_misclassified_images(STANDARDIZED_TEST_LIST)
   calculate_accuracy(STANDARDIZED_TEST_LIST, MISCLASSIFIED)
-
-  # image = red_missclassified[0][0]
-  # r = image[:,:,0]
-  # g = image[:,:,1]
-  # b = image[:,:,2]
-
-  # hsv = cv2.cvtColor(image, cv2.COLOR_RGB2HSV)
-  # h = hsv[:,:,0]
-  # s = hsv[:,:,1]
-  # v = hsv[:,:,2]
-
-  # f, (ax1, ax2, ax3, ax4) = plt.subplots(1, 4, figsize=(20,10))
-
-  # ax1.imshow(image)
-  # # ax2.imshow(image1)
-  # # ax3.imshow(g)
-  # # ax4.imshow(b)
-
-  # plt.show()
