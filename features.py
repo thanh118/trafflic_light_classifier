@@ -103,11 +103,3 @@ def red_green_yellow(rgb_image):
   if sum_yellow >= sum_green:
     return [0,1,0] # Yellow
   return [0,0,1] # Green
-
-  # f, (ax1, ax2, ax3, ax4, ax5) = plt.subplots(1, 5, figsize = (20,10))
-  # ax1.imshow(rgb_image)
-  # ax2.imshow(red_result)
-  # ax3.imshow(yellow_result)
-  # ax4.imshow(green_result)
-  # ax5.imshow(hsv)
-  # plt.show()
